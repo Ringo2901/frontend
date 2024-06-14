@@ -1,0 +1,106 @@
+.catalog-item__rating {
+    color: #ccc;
+    transition: transform 0.5s ease;
+  }
+
+.rating__star {
+  font-size: x-large;
+  width: 50px;
+  display: inline-block;
+  margin-right: -20px;
+  color: gray;
+  transition: transform 0.5s ease;
+}
+
+.rating__star:last-child {
+  margin-right: 0;
+}
+
+.rating__star:before {
+  content: '\2605';
+}
+
+.rating__star.on {
+  color: gold;
+}
+
+.rating__star.one:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 2px;
+  overflow: hidden;
+}
+
+.rating__star.two:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 4px;
+  overflow: hidden;
+}
+
+.rating__star.three:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 6px;
+  overflow: hidden;
+}
+
+.rating__star.four:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 8px;
+  overflow: hidden;
+}
+
+.rating__star.five:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 10px;
+  overflow: hidden;
+}
+
+.rating__star.six:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 12px;
+  overflow: hidden;
+}
+
+.rating__star.seven:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 14px;
+  overflow: hidden;
+}
+
+.rating__star.eight:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 16px;
+  overflow: hidden;
+}
+
+.rating__star.nine:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 18px;
+  overflow: hidden;
+}
