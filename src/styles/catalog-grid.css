@@ -1,3 +1,8 @@
+@import './catalog-item-buttons.css';
+@import './catalog-item-rating.css';
+@import './catalog-item.css';
+@import './catalog-sort.css';
+
 .catalog{
     display: flex;
     flex-wrap: wrap;

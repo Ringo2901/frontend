@@ -3,22 +3,14 @@
 <head>
     <title>Frontend test project</title>
     <script src="https://kit.fontawesome.com/33555cc127.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/catalog-grid.css">
-    <link rel="stylesheet" href="../css/catalog-item-buttons.css">
-    <link rel="stylesheet" href="../css/catalog-item-rating.css">
-    <link rel="stylesheet" href="../css/catalog-item.css">
-    <link rel="stylesheet" href="../css/catalog-sort.css">
-    <script src="../js/filter-buttons.js" defer></script>
+    <link rel="stylesheet" href="./styles/catalog-grid.css">
+    <script src="./js/filter-buttons.js" defer></script>
     <link
     href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
     rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
-
-    </header>
-    <main>
-
         <div class="catalog-sort">
             <input class="catalog-sort_hide-checkbox" type="checkbox" id="catalog-sort_hide-checkbox">
             <label for="catalog-sort_hide-checkbox">Show hidden</label>
@@ -26,9 +18,10 @@
             <button class="catalog-sort__sort-button favourite" data-filter="favourite">Favourite</button>
             <button class="catalog-sort__sort-button comparison" data-filter="comparison">Comparison</button>
         </div>
-
+    </header>
+    <main>
         <div class="catalog">
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="1">
                 <div class="catalog-item__image">
                     <img src = "https://avatars.mds.yandex.net/get-mpic/4338525/img_id5939161435041546457.jpeg/orig">
                 </div>
@@ -62,7 +55,7 @@
             
 
 
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="2">
                 <div class="catalog-item__image">
                     <img src = "https://newcdn.igromania.ru/mnt/news/1/0/5/1/2/6/95631/html/more/16b6bcaf8e127ad0_1920xH.webp">
                 </div>
@@ -96,7 +89,7 @@
             </div>
 
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="3">
                 <div class="catalog-item__image">
                     <img src = "https://scentre-store.ru/upload/iblock/93f/93f6c1cc0ba8c58d49f82642ea24136e.jpg">
                 </div>
@@ -130,7 +123,7 @@
             </div>
 
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="4">
                 <div class="catalog-item__image">
                     <img src = "https://www.insert-coin.fr/wp-content/uploads/2014/06/MortalKombatX_PS4_3D_FRA.jpg">
                 </div>
@@ -163,7 +156,7 @@
             </div>
 
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="5">
                 <div class="catalog-item__image">
                     <img src = "https://cdn.shazoo.ru/w1200x1200/456076_60AEYLRNw9_gpihm3epxma.jpg">
                 </div>
@@ -195,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="6">
                 <div class="catalog-item__image">
                     <img src = "https://cyborg33.ru/product_images/36a3d58d-9cd8-11ec-0a80-02c700239c64.jpg">
                 </div>
@@ -228,7 +221,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="7">
                 <div class="catalog-item__image">
                     <img src = "https://expert07.ru/upload/iblock/e21/jiaoqxm7nusv1zqor34neu4t3aqtbkpq.jpg">
                 </div>
@@ -260,7 +253,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="8">
                 <div class="catalog-item__image">
                     <img src = "https://static-01.daraz.pk/p/654add6dd821cbdbc2c966827fe7259f.jpg">
                 </div>
@@ -293,7 +286,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="9">
                 <div class="catalog-item__image">
                     <img src = "https://diamondelectric.ru/images/4026/4025747/electronic_arts_mass_effect_legendary_edition_ps4_rysskaya_versi_1.jpg">
                 </div>
@@ -325,7 +318,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="10">
                 <div class="catalog-item__image">
                     <img src = "https://vgboxart.com/boxes/PS4/76543-dead-space-remastered-trilogy-full.png">
                 </div>
@@ -357,7 +350,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="11">
                 <div class="catalog-item__image">
                     <img src = "https://kcentr.servisen.su/uploads/product/2023/1123481/photo/04e345420a4c2c5368a56c628026474073486bb1_1000x1000.jpg">
                 </div>
@@ -390,7 +383,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item new">
+            <div class="catalog-item new" id="12">
                 <div class="catalog-item__image">
                     <img src = "https://steams-games.shop/image/catalog/ghost-of-tsushima-ps4-playstation-4-box-art-faq-guide-2.900x.jpg">
                 </div>
@@ -422,7 +415,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item" id="13">
                 <div class="catalog-item__image">
                     <img src = "https://avatars.mds.yandex.net/get-mpic/3913686/img_id996717468025864140.png/orig">
                 </div>
@@ -456,8 +449,5 @@
             </div>
         </div>
     </main>
-
-    <footer>
-    </footer>
 </body>
 </html>
